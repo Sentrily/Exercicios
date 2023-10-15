@@ -1,0 +1,94 @@
+
+<html>
+<body>
+<h1>HTML - LISTA ORDENADAS, NÃO ORDENADAS E FORMULÁRIOS</h1>
+
+    
+<h2>LISTA ORDENADAS</h2>
+<h3>Exercício 1:</h3>
+<ol>
+    
+ <li>Confidencialidade</li>
+<li>Integridadedade</li>
+<li>Autenticidade</li>
+<li>Disponibilidade</li>
+<li>Não repúdio</li>
+    
+</ol>
+<h3>Exercício 3:</h3>
+<ol>
+    
+<li>Baixe o aplicativo de autenticação no seu dispositivo;</li>
+<li>Cadastre seu email no aplicativo;</li>
+<li>Ative a verificação no seu email.</li>
+
+</ol>
+<h2>LISTAS NÃO ORDENADAS</h2>
+<h3>Exercício 6:</h3>
+
+<ol>
+    
+    <li>Phishing</li>
+    <li>Ransomware</li>
+    <li>Ddos</li>
+    
+</ol>
+<h2>FORMULÁRIOS</h2>
+<h3>Exercício 11:</h3>
+
+<form action="">
+	<p>
+	    <label for="digitar">Digitar informações:</label>
+	 </p>
+	 <p>
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome"/>
+	</p>
+	<p>
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email"/>
+	</p>
+	<p>
+		<label for="mensagens">Mensagem:</label>
+		<input type="mensagens" id="mensagens" name="mensagens"/>
+	</p>
+	<input type="submit" value="Submeter"/>
+</form>
+
+<h3>Exercício 12</h3>
+
+<form action="">
+	<p>
+	    <label for="digitar">Digitar informações:</label>
+	 </p>
+	 <p>
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome"/>
+	</p>
+	<p>
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email"/>
+	</p>
+
+	<input type="submit" value="Submeter"/>
+</form>
+
+<h3>Exercício 13</h3>
+<form action="">
+	<p>
+	    <label for="digitar">Digitar informações:</label>
+	 </p>
+	 <p>
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome"/>
+	</p>
+	<p>
+		<label for="senha">Senha:</label>
+		<input type="password" id="senha" name="senha"/>
+	</p>
+
+	<input type="submit" value="Submeter"/>
+</form>
+
+</body>
+</html>
