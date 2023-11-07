@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2. Hover & Dicas</title>
+    <style>
+        .dica{
+            display: none;
+            position: absolute;
+            border: 1px solid #ccc;
+            background-color: white;
+            padding: 5px;
+        }
+        .termo{
+            margin-top:  10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .termo:hover .dica{
+            display:block;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="termo">
+            Firewall
+            <span class="dica">Firewall é um dispositivo de segurança da rede que monitora o tráfego de rede de entrada e saída e decide permitir ou bloquear tráfegos específicos de acordo com um conjunto definido de regras de segurança.</span>
+             </li>
+             <li class="termo">
+                VPN
+                <span class="dica">VPN ou Rede Virtual Privada é um serviço que protege sua conexão com internet e privacidade online </span>
+                 </li>
+                 <li class="termo">
+                    Phishing
+                    <span class="dica">Phishing é uma tentativa de fraude que tentar obter ilegalmente informações pessoais por meio de e-mails</span>
+                     </li>
+    </ul>
+    
+</body>
+</html>
