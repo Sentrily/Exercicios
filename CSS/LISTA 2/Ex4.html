@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas sobre ataques cibernéticos</title>
+    <style>
+    .button{
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        
+    }
+    
+    .verificando {
+        display: none;
+        position: absolute;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: left;
+        width: 150px;
+    }
+    
+    .button:active .verificando {
+        display: block;
+    }
+</style>
+</head>
+<body>
+            <div class="container">
+                <button class="button">Verificar<span class="verificando">Verificando...</span></button>
+            </div>
+
+</body>
+</html>
