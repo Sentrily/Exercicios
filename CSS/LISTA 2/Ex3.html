@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Seguro</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            text-align: center;
+        }
+                input[type="text"]:empty {
+            border: 4px solid;padding: 4px;border-color: red;border-radius: 6px;
+        }
+        input[type="text"]:valid {
+            border-color: lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="formu"
+    <form action=" ">
+        <fieldset>
+            <legend><b>Formulário Seguro</b></legend>
+            <br>
+            <div class="inputBox">
+                <label for="nome" class="labelInput">Nome:</label>
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+            </div>
+            <br>
+            <div class="inputBox">
+                <label for="email" class="labelInput">E-mail:</label>
+                <input type="text" name="email" id="email" class="inputUser" required>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
