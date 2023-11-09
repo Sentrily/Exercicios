@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilização de Tabelas</title>
+<style>
+    body{
+        background-color: #202124;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+    }
+    th{
+        font-size: 30px;
+    }
+    table{
+        width: 100%;
+    
+    }
+    tr:nth-child(even) {
+            background-color: #2a3147;
+        }
+
+    th,td{
+        border: 2px solid white;
+        padding: 15px;
+    }
+    tr:hover{
+        background-color: #3a3524;
+    }
+
+        
+ </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Ataques Cibernéticos</th>
+            <th>Descrição</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Ransomware</td>
+            <td>Um ataque cibernético no qual os invasores bloqueiam o acesso aos seus dados ou sistemas da vítima, exigindo o pagamento de um resgate para restaurar o acesso.</td>
+        </tr>
+        <tr>
+            <td>Phishing</td>
+            <td>Uma técnica de engenharia social usada para enganar usuários de internet usando fraude eletrônica para obter informações confidenciais </td>
+        </tr>
+            <td>DDoS</td>
+            <td>Um tipo de ataque cibernético que tenta indisponibilizar um website ou recurso de rede inundando-o com tráfego mal-intencionado e deixando-o incapaz de operar.</td>
+        <tr>
+            <td>Malware</td>
+            <td>Um software malicioso projetado para infiltrar, danificar ou controlar sistemas e dispositivos.</td>
+        </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
